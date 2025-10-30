@@ -24,3 +24,15 @@ class RuleBasedChecker(FraudChecker):
             reason=reason,
             confidence_score=confidence
         )
+
+    def rows_to_transactions(self, rows: List[Dict[str, Any]]) -> List[Transaction]:
+        """Convert database rows to Transaction objects."""
+        return [
+            Transaction(
+                user_id=row['user_id'],
+                timestamp=str(row['timestamp']),
+                merchant_name=row['merchant_name'],
+                amount=float(row['amount'])
+            )
+            for row in rows
+        ]
