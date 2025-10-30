@@ -78,3 +78,20 @@
 2025-10-29 19:08:42 - FraudDetectionEngine - INFO - Execution completed. Total flags: 3
 2025-10-29 19:08:42 - FraudDetectionEngine - INFO - Shutting down execution engine
 2025-10-29 19:08:42 - FraudDetectionEngine - INFO - ================================================================================
+2025-10-29 19:47:36 - FraudDetectionEngine - INFO - ================================================================================
+2025-10-29 19:47:36 - FraudDetectionEngine - INFO - Execution Engine initialized at 2025-10-29 19:47:36.088211
+2025-10-29 19:47:36 - FraudDetectionEngine - INFO - ================================================================================
+2025-10-29 19:47:38 - FraudDetectionEngine - INFO - Starting execution with 1123874 transactions
+2025-10-29 19:47:38 - FraudDetectionEngine - INFO - Running checker: HighValueChecker
+2025-10-29 19:47:38 - FraudDetectionEngine - INFO -   Found 1 fraud flags
+2025-10-29 19:47:38 - FraudDetectionEngine - INFO - Running checker: RoundAmountTestChecker
+2025-10-29 19:47:39 - FraudDetectionEngine - INFO -   Found 1 fraud flags
+2025-10-29 19:47:39 - FraudDetectionEngine - INFO - Running checker: CryptoMerchantChecker
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO -   Found 1 fraud flags
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO - Running checker: VeryHighValueChecker
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO -   Found 1 fraud flags
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO - Running checker: HighRiskComboChecker
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO -   Found 1 fraud flags
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO - Execution completed. Total flags: 5
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO - Shutting down execution engine
+2025-10-29 19:47:40 - FraudDetectionEngine - INFO - ================================================================================
