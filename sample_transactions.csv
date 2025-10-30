@@ -1,0 +1,11 @@
+user_id,timestamp,merchant_name,amount
+user_001,2025-10-29 08:15:23,Starbucks,5.75
+user_002,2025-10-29 09:22:11,Amazon,129.99
+user_001,2025-10-29 10:05:47,Shell Gas Station,45.00
+user_003,2025-10-29 11:30:00,Whole Foods,87.23
+user_002,2025-10-29 12:45:33,Apple Store,999.00
+user_004,2025-10-29 14:20:15,McDonald's,12.50
+user_003,2025-10-29 15:10:00,Nike,156.99
+user_001,2025-10-29 16:55:42,Target,234.56
+user_005,2025-10-29 18:30:20,Best Buy,1299.99
+user_004,2025-10-29 20:15:00,Uber,25.80
