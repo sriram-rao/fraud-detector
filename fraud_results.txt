@@ -1,0 +1,28 @@
+Fraud Detection Results
+================================================================================
+
+Total fraud patterns detected: 3
+
+Pattern #1
+  Checker: HighValueChecker
+  Reason: High value transaction (>$500)
+  Confidence: 0.75
+  Transactions (2):
+    - user_002 | 2025-10-29 12:45:33 | Apple Store | $999.00
+    - user_005 | 2025-10-29 18:30:20 | Best Buy | $1299.99
+
+Pattern #2
+  Checker: VeryHighValueChecker
+  Reason: Very high value transaction (>$1000)
+  Confidence: 0.85
+  Transactions (1):
+    - user_005 | 2025-10-29 18:30:20 | Best Buy | $1299.99
+
+Pattern #3
+  Checker: HighRiskComboChecker
+  Reason: High-value electronics purchase (common fraud target)
+  Confidence: 0.72
+  Transactions (2):
+    - user_002 | 2025-10-29 12:45:33 | Apple Store | $999.00
+    - user_005 | 2025-10-29 18:30:20 | Best Buy | $1299.99
+
